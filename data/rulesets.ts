@@ -7,7 +7,6 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 
 	// Rulesets
 	///////////////////////////////////////////////////////////////////
-
 	standardag: {
 		effectType: 'ValidatorRule',
 		name: 'Standard AG',
@@ -156,10 +155,10 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 	},
 	standarddraft: {
 		effectType: 'ValidatorRule',
-		name: 'Standard Draft',
-		desc: "The custom Draft League ruleset",
+		name: 'Nerdcup 2 Draft',
+		desc: "The Nerdcup 2 Draft League ruleset",
 		ruleset: [
-			'Obtainable', 'Nickname Clause', '+Unreleased', '+CAP', 'Sketch Post-Gen 7 Moves', 'Team Preview', 'Sleep Clause Mod', 'OHKO Clause', 'Evasion Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
+			'Obtainable', 'Nickname Clause', '+Unreleased', '+CAP', 'Sketch Post-Gen 7 Moves', 'Team Preview', 'Sleep Clause Mod', 'OHKO Clause', 'Evasion Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Moody Clause', 'DryPass Clause', 'Z-Move Clause', 'Dynamax Clause', 'Gems Clause',
 		],
 		// timer: {starting: 60 * 60, grace: 0, addPerTurn: 10, maxPerTurn: 100, timeoutAutoChoose: true},
 	},
