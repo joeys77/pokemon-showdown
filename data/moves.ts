@@ -3471,7 +3471,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	darkvoid: {
 		num: 464,
-		accuracy: 50,
+		accuracy: 75,
 		basePower: 0,
 		category: "Status",
 		name: "Dark Void",
@@ -8364,7 +8364,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 10,
 		priority: 0,
 		flags: { metronome: 1 },
-		weather: 'hail',
+		weather: 'snowscape',
 		secondary: null,
 		target: "all",
 		type: "Ice",
